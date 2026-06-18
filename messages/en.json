@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "QR Creator — Beautiful QR Codes",
+    "description": "Generate beautiful, customisable QR codes for URLs, contacts, WiFi, events and more."
+  },
+  "nav": { "brand": "QR Creator", "tagline": "Beautiful QR codes in seconds" },
+  "tabs": {
+    "url": "URL", "text": "Text", "email": "Email", "phone": "Phone",
+    "sms": "SMS", "wifi": "Wi-Fi", "vcard": "vCard", "location": "Location",
+    "event": "Event", "crypto": "Crypto", "social": "Social", "app": "App Link"
+  },
+  "fields": {
+    "url": "Website URL", "urlPlaceholder": "https://your-website.com",
+    "text": "Plain text content", "textPlaceholder": "Enter any text, message or note…",
+    "email": "Email address", "emailPlaceholder": "hello@example.com",
+    "subject": "Subject", "subjectPlaceholder": "Email subject (optional)",
+    "body": "Message body", "bodyPlaceholder": "Pre-filled body text (optional)…",
+    "phone": "Phone number", "phonePlaceholder": "+44 20 1234 5678",
+    "phoneHint": "Scanning this QR code will prompt the user to call this number.",
+    "smsPhone": "Recipient number", "smsMessage": "Pre-filled message",
+    "smsMessagePlaceholder": "Message text (optional)…",
+    "wifiSsid": "Network name (SSID)", "wifiSsidPlaceholder": "MyHomeNetwork",
+    "wifiPassword": "Password", "wifiPasswordPlaceholder": "yourpassword123",
+    "wifiSecurity": "Security type", "wifiHidden": "Hidden network (SSID not broadcast)",
+    "wpaWpa2": "WPA / WPA2 (recommended)", "wep": "WEP (legacy)", "none": "None — open network",
+    "firstName": "First name", "firstNamePlaceholder": "Jane",
+    "lastName": "Last name", "lastNamePlaceholder": "Smith",
+    "organisation": "Organisation", "organisationPlaceholder": "Acme Ltd",
+    "jobTitle": "Job title", "jobTitlePlaceholder": "Product Designer",
+    "workPhone": "Phone (work)", "mobilePhone": "Phone (mobile)",
+    "workEmail": "Email (work)", "personalEmail": "Email (personal)",
+    "website": "Website", "websitePlaceholder": "https://jane.com",
+    "linkedin": "LinkedIn", "linkedinPlaceholder": "https://linkedin.com/in/jane",
+    "street": "Street address", "streetPlaceholder": "10 Downing Street",
+    "city": "City", "cityPlaceholder": "London",
+    "country": "Country", "countryPlaceholder": "UK",
+    "postcode": "Postcode", "postcodePlaceholder": "SW1A 2AA",
+    "birthday": "Birthday (YYYY-MM-DD)", "birthdayPlaceholder": "1990-06-15",
+    "note": "Note", "notePlaceholder": "Optional note…",
+    "latitude": "Latitude", "latitudePlaceholder": "51.5074",
+    "longitude": "Longitude", "longitudePlaceholder": "-0.1278",
+    "placeName": "Place name (optional)", "placeNamePlaceholder": "Buckingham Palace, London",
+    "zoomLevel": "Zoom level (1–21)",
+    "eventTitle": "Event title", "eventTitlePlaceholder": "Team kickoff meeting",
+    "startDateTime": "Start date & time", "endDateTime": "End date & time",
+    "locationOrUrl": "Location / URL", "locationOrUrlPlaceholder": "Room B or https://meet.google.com/…",
+    "organiserName": "Organiser name", "organiserNamePlaceholder": "Jane Smith",
+    "organiserEmail": "Organiser email", "description": "Description",
+    "descriptionPlaceholder": "Optional details or agenda…", "allDay": "All-day event",
+    "cryptocurrency": "Cryptocurrency", "walletAddress": "Wallet address",
+    "walletPlaceholder": "1A1zP1eP5QGefi2DMPTfTL5SLmv7Divf…",
+    "amount": "Amount (optional)", "label": "Label (optional)", "labelPlaceholder": "Donation",
+    "message": "Message (optional)", "messagePlaceholder": "Thanks for your support!",
+    "platform": "Platform", "username": "Username / handle", "usernamePlaceholder": "@username",
+    "socialHint": "The QR code will link directly to this profile page.",
+    "appStoreIos": "App Store (iOS)", "appStoreIosPlaceholder": "https://apps.apple.com/app/id…",
+    "googlePlay": "Google Play (Android)", "googlePlayPlaceholder": "https://play.google.com/store/apps/details?id=…",
+    "fallbackUrl": "Fallback URL (desktop)", "fallbackUrlPlaceholder": "https://your-app-website.com",
+    "appHint": "For true OS detection, consider a smart link service like branch.io or onelink.me."
+  },
+  "appearance": {
+    "title": "Appearance", "foreground": "Foreground", "background": "Background",
+    "presets": "Colour presets", "size": "Size", "margin": "Margin",
+    "errorCorrection": "Error correction",
+    "ecL": "L — 7%", "ecM": "M — 15%", "ecQ": "Q — 25%", "ecH": "H — 30%"
+  },
+  "logo": {
+    "title": "Logo overlay", "upload": "Click or drag to upload a logo",
+    "hint": "PNG, JPG, SVG · max 2 MB", "remove": "Remove logo",
+    "sizeLabel": "Logo size", "ecBumped": "Error correction bumped to H for readability"
+  },
+  "preview": {
+    "title": "Live preview", "waiting": "Waiting for content…",
+    "modules": "Version {version} · {modules}×{modules} modules · {chars} chars",
+    "tooLong": "⚠ Content too long — try L error correction or shorter content"
+  },
+  "download": {
+    "png": "PNG", "svg": "SVG", "pdf": "PDF",
+    "copy": "Copy to clipboard", "copied": "Copied!",
+    "pngSaved": "PNG downloaded", "svgSaved": "SVG downloaded", "pdfSaved": "PDF downloaded"
+  },
+  "palettes": {
+    "classic": "Classic", "purple": "Purple", "slate": "Slate", "forest": "Forest",
+    "violet": "Violet", "amber": "Amber", "rose": "Rose", "sky": "Sky"
+  },
+  "chooseType": "Choose type",
+  "customField": {
+    "title": "Custom Field",
+    "addField": "Add Field",
+    "addMore": "Add More",
+    "fieldLabel": "Field Label",
+    "fieldValue": "Value",
+    "fieldType": "Field Type",
+    "remove": "Remove",
+    "types": {
+      "text": "Text", "url": "URL", "email": "Email", "phone": "Phone",
+      "number": "Number", "date": "Date", "textarea": "Long Text"
+    }
+  },
+  "multiField": {
+    "addAnother": "Add another",
+    "entry": "Entry"
+  },
+  "countryCode": "Country code"
+}

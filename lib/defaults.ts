@@ -1,0 +1,68 @@
+import type { QRFormState, AppearanceState } from "@/types/qr";
+import { nanoid } from "./nanoid";
+
+export function defaultForm(): QRFormState {
+  return {
+    url: "",
+    text: "",
+    emails: [{ id: nanoid(), value: "" }],
+    emailSubject: "",
+    emailBody: "",
+    phones: [{ id: nanoid(), countryDial: "+1", number: "" }],
+    smsPhones: [{ id: nanoid(), countryDial: "+1", number: "" }],
+    smsMessage: "",
+    wifiSsid: "",
+    wifiPassword: "",
+    wifiSecurity: "WPA",
+    wifiHidden: false,
+    vcardFirstName: "",
+    vcardLastName: "",
+    vcardOrg: "",
+    vcardTitle: "",
+    vcardPhones: [{ id: nanoid(), countryDial: "+1", number: "" }],
+    vcardEmails: [{ id: nanoid(), value: "" }],
+    vcardWebsite: "",
+    vcardLinkedin: "",
+    vcardStreet: "",
+    vcardCity: "",
+    vcardCountry: "",
+    vcardPostcode: "",
+    vcardBirthday: "",
+    vcardNote: "",
+    latitude: "",
+    longitude: "",
+    placeName: "",
+    zoomLevel: "16",
+    eventTitle: "",
+    eventStart: "",
+    eventEnd: "",
+    eventLocation: "",
+    eventOrganiser: "",
+    eventOrganiserEmail: "",
+    eventDescription: "",
+    eventAllDay: false,
+    cryptoCoin: "bitcoin",
+    cryptoWallet: "",
+    cryptoAmount: "",
+    cryptoLabel: "",
+    cryptoMessage: "",
+    socialPlatform: "twitter",
+    socialUsername: "",
+    appIos: "",
+    appAndroid: "",
+    appFallback: "",
+    customFields: [],
+  };
+}
+
+export function defaultAppearance(): AppearanceState {
+  return {
+    fg: "#000000",
+    bg: "#ffffff",
+    size: 300,
+    margin: 3,
+    ec: "M",
+    logoDataUrl: null,
+    logoSize: 20,
+  };
+}
